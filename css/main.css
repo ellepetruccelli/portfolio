@@ -1,0 +1,220 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: Montserrat, sans-serif;
+	min-width: 1400px;
+}
+
+#header {
+	height: 80px;
+}
+
+#background {
+	height: 720px;
+}
+#work {
+	height: 1550px;
+}
+
+#about {
+	height:	550px;
+}
+
+#contact {
+	height: 400px;
+}
+
+#copyright {
+	height: 50px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1400px;
+}
+
+.half-width {
+	float: left;
+	width: 700px;
+}
+
+.third-width {
+	float: left;
+	width: 466px;
+}
+
+/***** HEADER *****/
+
+header {
+	background: #1f202b;
+}
+
+header h1 {
+	color: #ffffff;
+	font-family: Montserrat, sans-serif;
+	font-size: 30px;
+	padding-left: 40px;
+} 
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #ffffff;
+	font-family: Montserrat, sans-serif;
+	font-size: 30px;
+	padding: 20px 45px 40px 0;
+	text-decoration: none;
+}
+
+/***** BACKGROUND *****/
+
+#background {
+	background: url('../img/background.png');
+	background-size: cover;
+	overflow: hidden;
+}
+
+#background h2 {
+	color: #ffffff;
+	font-family: Source Code Pro, monospace;
+	font-size: 72px;
+	padding: 225px 100px;
+	width: 700px;
+}
+
+#background h2 span {
+	color: #fa0075;
+}
+
+/***** WORK *****/
+
+#work{
+	background: #1f202b;
+	margin-top: -30px;
+}
+
+#work h2 {
+	color: #fa0075;
+	font-family: Source Code Pro, monospace;
+	font-size: 36px;
+	padding: 50px 0;
+	text-align: center;
+}
+
+#work h3 {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 100px 100px 0 100px;
+	text-align: center;
+}
+
+#work p {
+	color: #ffffff;
+	font-size: 24px;
+	text-align: center;
+}
+
+#work img {
+	border: 1px #b7b7b7;
+	height: 350px;
+	padding: 50px 100px;
+	width: 550px;
+}
+
+#work .middle {
+	float: left;
+}
+
+/***** ABOUT *****/
+
+#about {
+	background: url('../img/about.png');
+	background-size: cover;
+	overflow: hidden;
+}
+
+#about h2 {
+	color: #fa0075;
+	font-family: Source Code Pro, monospace;
+	font-size: 36px;
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+
+#about h3 {
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0 0 0 100px;
+}
+
+#about p {
+	font-size: 20px;
+	line-height: 30px;
+	padding-left: 100px;
+	width: 750px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background: #1f202b;
+	margin-top: -30px;
+}
+
+#contact .full-width {
+	padding: ;
+}
+#contact h2 {
+	color: #fa0075;
+	font-family: Source Code Pro, monospace;
+	font-size: 36px;
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+
+#contact h3 {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#contact p {
+	color: #ffffff;
+	font-size: 24px;
+	text-align: center;
+}
+
+#contact a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li {
+	display: inline-block;
+	margin-left: 60px;
+}
+
+/***** FOOTER *****/
+
+#copyright {
+	background: #1f202b;
+	margin-top: -20px;
+}
+
+#copyright p {
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+}
