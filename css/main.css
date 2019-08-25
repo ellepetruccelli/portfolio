@@ -24,24 +24,33 @@ body {
 	height: 400px;
 }
 
-#copyright {
-	height: 50px;
+.top {
+	height: 500px;
+}
+
+.middle {
+	height: 500px;
+}
+
+.bottom {
+	height: 500px;
 }
 
 /***** GRID *****/
 
 .full-width {
-	width: 1400px;
+	margin: auto 100px;
+	width: 1200px;
 }
 
 .half-width {
 	float: left;
-	width: 700px;
+	width: 600px;
 }
 
 .third-width {
 	float: left;
-	width: 466px;
+	width: 400px;
 }
 
 /***** HEADER *****/
@@ -54,11 +63,12 @@ header h1 {
 	color: #ffffff;
 	font-family: Montserrat, sans-serif;
 	font-size: 30px;
-	padding-left: 40px;
+	margin-left: -60px;
 } 
 
 nav {
 	float: right;
+	margin-right: -60px;
 }
 
 nav ul li {
@@ -69,7 +79,7 @@ nav ul li a {
 	color: #ffffff;
 	font-family: Montserrat, sans-serif;
 	font-size: 30px;
-	padding: 20px 45px 40px 0;
+	padding-left: 45px;
 	text-decoration: none;
 }
 
@@ -86,7 +96,7 @@ nav ul li a {
 	font-family: Source Code Pro, monospace;
 	font-size: 72px;
 	padding: 225px 100px;
-	width: 700px;
+	width: 650px;
 }
 
 #background h2 span {
@@ -95,7 +105,7 @@ nav ul li a {
 
 /***** WORK *****/
 
-#work{
+#work {
 	background: #1f202b;
 	margin-top: -30px;
 }
@@ -104,7 +114,6 @@ nav ul li a {
 	color: #fa0075;
 	font-family: Source Code Pro, monospace;
 	font-size: 36px;
-	padding: 50px 0;
 	text-align: center;
 }
 
@@ -112,7 +121,6 @@ nav ul li a {
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: bold;
-	padding: 100px 100px 0 100px;
 	text-align: center;
 }
 
@@ -125,12 +133,23 @@ nav ul li a {
 #work img {
 	border: 1px #b7b7b7;
 	height: 350px;
-	padding: 50px 100px;
 	width: 550px;
+}
+
+#work .left {
+	padding-right: 50px;
+}
+
+#work .right {
+	padding-left: 50px;
 }
 
 #work .middle {
 	float: left;
+}
+
+#work .top {
+	padding-top: 50px;
 }
 
 /***** ABOUT *****/
@@ -145,24 +164,21 @@ nav ul li a {
 	color: #fa0075;
 	font-family: Source Code Pro, monospace;
 	font-size: 36px;
-	padding: 50px 0 0 0;
 	text-align: center;
 }
 
 #about h3 {
 	font-size: 24px;
 	font-weight: bold;
-	padding: 0 0 0 100px;
 }
 
 #about p {
 	font-size: 20px;
 	line-height: 30px;
-	padding-left: 100px;
 	width: 750px;
 }
 
-/***** CONTACT *****/
+/***** FOOTER *****/
 
 #contact {
 	background: #1f202b;
@@ -170,13 +186,13 @@ nav ul li a {
 }
 
 #contact .full-width {
-	padding: ;
 }
+
 #contact h2 {
 	color: #fa0075;
 	font-family: Source Code Pro, monospace;
 	font-size: 36px;
-	padding: 50px 0 0 0;
+	padding-top: 50px;
 	text-align: center;
 }
 
@@ -193,6 +209,11 @@ nav ul li a {
 	text-align: center;
 }
 
+#contact p span {
+	font-size: 18px;
+	line-height: 150px
+}
+
 #contact a {
 	color: #ffffff;
 	text-decoration: none;
@@ -203,18 +224,6 @@ nav ul li a {
 
 #contact ul li {
 	display: inline-block;
-	margin-left: 60px;
+	padding-left: 40px;
 }
 
-/***** FOOTER *****/
-
-#copyright {
-	background: #1f202b;
-	margin-top: -20px;
-}
-
-#copyright p {
-	color: #ffffff;
-	font-size: 18px;
-	text-align: center;
-}
